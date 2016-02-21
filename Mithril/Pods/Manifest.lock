@@ -1,0 +1,19 @@
+PODS:
+  - BlueDot (0.1.1)
+  - CRGradientNavigationBar (0.3.2)
+  - pop (1.0.7)
+  - VBFPopFlatButton (0.0.6):
+    - pop
+
+DEPENDENCIES:
+  - BlueDot
+  - CRGradientNavigationBar
+  - VBFPopFlatButton
+
+SPEC CHECKSUMS:
+  BlueDot: e6025700cc85c8477506daa37309df5d42a254b1
+  CRGradientNavigationBar: ee6fa0398e3d64af32a792b63336e094bb55402e
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  VBFPopFlatButton: 782344da63f104c279a857d806e065117a7e1196
+
+COCOAPODS: 0.36.0

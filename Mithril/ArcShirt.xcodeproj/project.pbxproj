@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05856332EED2A00F88751C39 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673121DF7BE851FC2A9B178 /* libPods.a */; };
+		521896F71AD1B3DE00DF6815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521896F61AD1B3DE00DF6815 /* main.m */; };
+		521896FA1AD1B3DE00DF6815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521896F91AD1B3DE00DF6815 /* AppDelegate.m */; };
+		521897021AD1B3DE00DF6815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521897011AD1B3DE00DF6815 /* Images.xcassets */; };
+		521897051AD1B3DE00DF6815 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521897031AD1B3DE00DF6815 /* LaunchScreen.xib */; };
+		521897111AD1B3DE00DF6815 /* ArcShirtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521897101AD1B3DE00DF6815 /* ArcShirtTests.m */; };
+		5218971C1AD1B43100DF6815 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5218971B1AD1B43100DF6815 /* MyNavigationController.m */; };
+		5218971F1AD1B5CF00DF6815 /* DataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5218971E1AD1B5CF00DF6815 /* DataCollectionViewController.m */; };
+		521897221AD1B65100DF6815 /* HealthDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 521897211AD1B65100DF6815 /* HealthDataCell.m */; };
+		521897251AD1B6F200DF6815 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521897241AD1B6F200DF6815 /* DetailViewController.m */; };
+		5218972B1AD223EE00DF6815 /* JSBatteryLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5218972A1AD223EE00DF6815 /* JSBatteryLevel.m */; };
+		527B07F71AD9046D00E44EC7 /* DataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B07F61AD9046D00E44EC7 /* DataCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5218970B1AD1B3DE00DF6815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521896E91AD1B3DE00DF6815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521896F01AD1B3DE00DF6815;
+			remoteInfo = ArcShirt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3673121DF7BE851FC2A9B178 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38818094903038E0E2ED1977 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		521896F11AD1B3DE00DF6815 /* ArcShirt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcShirt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521896F51AD1B3DE00DF6815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521896F61AD1B3DE00DF6815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521896F81AD1B3DE00DF6815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521896F91AD1B3DE00DF6815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521897011AD1B3DE00DF6815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		521897041AD1B3DE00DF6815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5218970A1AD1B3DE00DF6815 /* ArcShirtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcShirtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5218970F1AD1B3DE00DF6815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521897101AD1B3DE00DF6815 /* ArcShirtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcShirtTests.m; sourceTree = "<group>"; };
+		5218971A1AD1B43100DF6815 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		5218971B1AD1B43100DF6815 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		5218971D1AD1B5CF00DF6815 /* DataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCollectionViewController.h; sourceTree = "<group>"; };
+		5218971E1AD1B5CF00DF6815 /* DataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCollectionViewController.m; sourceTree = "<group>"; };
+		521897201AD1B65100DF6815 /* HealthDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDataCell.h; sourceTree = "<group>"; };
+		521897211AD1B65100DF6815 /* HealthDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDataCell.m; sourceTree = "<group>"; };
+		521897231AD1B6F200DF6815 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		521897241AD1B6F200DF6815 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		521897291AD223EE00DF6815 /* JSBatteryLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBatteryLevel.h; sourceTree = "<group>"; };
+		5218972A1AD223EE00DF6815 /* JSBatteryLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBatteryLevel.m; sourceTree = "<group>"; };
+		527B07F51AD9046D00E44EC7 /* DataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCell.h; sourceTree = "<group>"; };
+		527B07F61AD9046D00E44EC7 /* DataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCell.m; sourceTree = "<group>"; };
+		FD8C61AEAAD12A617B1B13FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521896EE1AD1B3DE00DF6815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05856332EED2A00F88751C39 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521897071AD1B3DE00DF6815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023EAEADD0B9BC18E53C1CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3673121DF7BE851FC2A9B178 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521896E81AD1B3DE00DF6815 = {
+			isa = PBXGroup;
+			children = (
+				521896F31AD1B3DE00DF6815 /* ArcShirt */,
+				5218970D1AD1B3DE00DF6815 /* ArcShirtTests */,
+				521896F21AD1B3DE00DF6815 /* Products */,
+				D618021E28484CFC956A4F4F /* Pods */,
+				023EAEADD0B9BC18E53C1CDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		521896F21AD1B3DE00DF6815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521896F11AD1B3DE00DF6815 /* ArcShirt.app */,
+				5218970A1AD1B3DE00DF6815 /* ArcShirtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521896F31AD1B3DE00DF6815 /* ArcShirt */ = {
+			isa = PBXGroup;
+			children = (
+				521896F81AD1B3DE00DF6815 /* AppDelegate.h */,
+				521896F91AD1B3DE00DF6815 /* AppDelegate.m */,
+				5218971A1AD1B43100DF6815 /* MyNavigationController.h */,
+				5218971B1AD1B43100DF6815 /* MyNavigationController.m */,
+				5218971D1AD1B5CF00DF6815 /* DataCollectionViewController.h */,
+				5218971E1AD1B5CF00DF6815 /* DataCollectionViewController.m */,
+				521897201AD1B65100DF6815 /* HealthDataCell.h */,
+				521897211AD1B65100DF6815 /* HealthDataCell.m */,
+				527B07F51AD9046D00E44EC7 /* DataCell.h */,
+				527B07F61AD9046D00E44EC7 /* DataCell.m */,
+				521897231AD1B6F200DF6815 /* DetailViewController.h */,
+				521897241AD1B6F200DF6815 /* DetailViewController.m */,
+				521897291AD223EE00DF6815 /* JSBatteryLevel.h */,
+				5218972A1AD223EE00DF6815 /* JSBatteryLevel.m */,
+				521897011AD1B3DE00DF6815 /* Images.xcassets */,
+				521897031AD1B3DE00DF6815 /* LaunchScreen.xib */,
+				521896F41AD1B3DE00DF6815 /* Supporting Files */,
+			);
+			path = ArcShirt;
+			sourceTree = "<group>";
+		};
+		521896F41AD1B3DE00DF6815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521896F51AD1B3DE00DF6815 /* Info.plist */,
+				521896F61AD1B3DE00DF6815 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5218970D1AD1B3DE00DF6815 /* ArcShirtTests */ = {
+			isa = PBXGroup;
+			children = (
+				521897101AD1B3DE00DF6815 /* ArcShirtTests.m */,
+				5218970E1AD1B3DE00DF6815 /* Supporting Files */,
+			);
+			path = ArcShirtTests;
+			sourceTree = "<group>";
+		};
+		5218970E1AD1B3DE00DF6815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5218970F1AD1B3DE00DF6815 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D618021E28484CFC956A4F4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C61AEAAD12A617B1B13FF /* Pods.debug.xcconfig */,
+				38818094903038E0E2ED1977 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521896F01AD1B3DE00DF6815 /* ArcShirt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521897141AD1B3DE00DF6815 /* Build configuration list for PBXNativeTarget "ArcShirt" */;
+			buildPhases = (
+				D0FF19E22CBF0C2C6F03AE41 /* Check Pods Manifest.lock */,
+				521896ED1AD1B3DE00DF6815 /* Sources */,
+				521896EE1AD1B3DE00DF6815 /* Frameworks */,
+				521896EF1AD1B3DE00DF6815 /* Resources */,
+				7245D40E85BCDEA106EB21FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcShirt;
+			productName = ArcShirt;
+			productReference = 521896F11AD1B3DE00DF6815 /* ArcShirt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521897091AD1B3DE00DF6815 /* ArcShirtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521897171AD1B3DE00DF6815 /* Build configuration list for PBXNativeTarget "ArcShirtTests" */;
+			buildPhases = (
+				521897061AD1B3DE00DF6815 /* Sources */,
+				521897071AD1B3DE00DF6815 /* Frameworks */,
+				521897081AD1B3DE00DF6815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5218970C1AD1B3DE00DF6815 /* PBXTargetDependency */,
+			);
+			name = ArcShirtTests;
+			productName = ArcShirtTests;
+			productReference = 5218970A1AD1B3DE00DF6815 /* ArcShirtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521896E91AD1B3DE00DF6815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "CS 145 Team";
+				TargetAttributes = {
+					521896F01AD1B3DE00DF6815 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					521897091AD1B3DE00DF6815 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 521896F01AD1B3DE00DF6815;
+					};
+				};
+			};
+			buildConfigurationList = 521896EC1AD1B3DE00DF6815 /* Build configuration list for PBXProject "ArcShirt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521896E81AD1B3DE00DF6815;
+			productRefGroup = 521896F21AD1B3DE00DF6815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521896F01AD1B3DE00DF6815 /* ArcShirt */,
+				521897091AD1B3DE00DF6815 /* ArcShirtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521896EF1AD1B3DE00DF6815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521897051AD1B3DE00DF6815 /* LaunchScreen.xib in Resources */,
+				521897021AD1B3DE00DF6815 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521897081AD1B3DE00DF6815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7245D40E85BCDEA106EB21FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FF19E22CBF0C2C6F03AE41 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521896ED1AD1B3DE00DF6815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5218971C1AD1B43100DF6815 /* MyNavigationController.m in Sources */,
+				521897221AD1B65100DF6815 /* HealthDataCell.m in Sources */,
+				5218972B1AD223EE00DF6815 /* JSBatteryLevel.m in Sources */,
+				521896FA1AD1B3DE00DF6815 /* AppDelegate.m in Sources */,
+				5218971F1AD1B5CF00DF6815 /* DataCollectionViewController.m in Sources */,
+				521896F71AD1B3DE00DF6815 /* main.m in Sources */,
+				521897251AD1B6F200DF6815 /* DetailViewController.m in Sources */,
+				527B07F71AD9046D00E44EC7 /* DataCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521897061AD1B3DE00DF6815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521897111AD1B3DE00DF6815 /* ArcShirtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5218970C1AD1B3DE00DF6815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521896F01AD1B3DE00DF6815 /* ArcShirt */;
+			targetProxy = 5218970B1AD1B3DE00DF6815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521897031AD1B3DE00DF6815 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521897041AD1B3DE00DF6815 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521897121AD1B3DE00DF6815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		521897131AD1B3DE00DF6815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521897151AD1B3DE00DF6815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8C61AEAAD12A617B1B13FF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcShirt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		521897161AD1B3DE00DF6815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38818094903038E0E2ED1977 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcShirt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		521897181AD1B3DE00DF6815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcShirtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcShirt.app/ArcShirt";
+			};
+			name = Debug;
+		};
+		521897191AD1B3DE00DF6815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcShirtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcShirt.app/ArcShirt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521896EC1AD1B3DE00DF6815 /* Build configuration list for PBXProject "ArcShirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521897121AD1B3DE00DF6815 /* Debug */,
+				521897131AD1B3DE00DF6815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521897141AD1B3DE00DF6815 /* Build configuration list for PBXNativeTarget "ArcShirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521897151AD1B3DE00DF6815 /* Debug */,
+				521897161AD1B3DE00DF6815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521897171AD1B3DE00DF6815 /* Build configuration list for PBXNativeTarget "ArcShirtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521897181AD1B3DE00DF6815 /* Debug */,
+				521897191AD1B3DE00DF6815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521896E91AD1B3DE00DF6815 /* Project object */;
+}
